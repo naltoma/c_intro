@@ -7,13 +7,13 @@ struct student_score{
 };
 
 void print_struct(struct student_score); //構造体を出力するための関数。
-int evaluation(int score); //点数をA~F判定する関数。
+char evaluation(int score); //点数をA~F判定する関数。
 
 void print_struct(struct student_score stu){
     printf("account=%s, score=%d, eval=%c\n",stu.account,stu.score,stu.eval);
 }
 
-int evaluation(int score){
+char evaluation(int score){
     char eval = 'F';
     if( score >= 90 ){
         eval = 'A';
