@@ -26,3 +26,4 @@
   - (?) デバッガの利用。
     - [CLion](https://www.jetbrains.com/clion/)のリンク紹介しとけば良い？（学生はPyCharmの演習経験あり）
     - 「紹介するならlldbでも良いのでは。OSでも使うし」 by 院生
+  - (?) 「gcc ではなく llvm 使え」
