@@ -15,10 +15,12 @@
 </ul>
 
 <hr>
+
 ## <a name="abst">課題概要</a>
 予め用意した文字列とユーザ入力とを見比べ、文字(char)単位での一致率を出力せよ。
 
 <hr>
+
 ## <a name="details">詳細仕様</a>
 以下では「予め用意した文字列を**answer**」、「ユーザ入力を**input**」と呼ぶこととする。
 
@@ -53,6 +55,7 @@
 - 上記以外の仕様は自由に決めて構わないが、**自作の関数1つ以上を含むこと**。
 
 <hr>
+
 ## <a href="output_example">実行例</a>
 - 実行例1
 ```
@@ -75,6 +78,7 @@ match_num = 1, correct_rate = 0.250000
 ```
 
 <hr>
+
 ## <a name="hints">ヒント</a>
 - ユーザ入力を読み込むには scanf()関数を用いよ。
   - コード例: [sample_scanf.c](sample_scanf.c)
@@ -87,6 +91,7 @@ match_num = 1, correct_rate = 0.250000
 
 
 <hr>
+
 ## <a name="goal">課題の達成目標</a>
 - [達成目標](https://github.com/naltoma/c_intro/blob/master/C_intro.md#goal)
   - 本課題では、構造体は不要です。
