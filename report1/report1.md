@@ -8,6 +8,7 @@
 <lh>＜目次＞</lh>
 <li><a href="#abst">課題概要</a>
 <li><a href="#details">詳細仕様</a>
+<li><a href="#output_example">実行例</a>
 <li><a href="#hints">ヒント</a>
 <li><a href="#goal">課題の達成目標</a>
 <li><a href="#report">取り組み方</a>
@@ -56,7 +57,7 @@
 
 <hr>
 
-## <a href="output_example">実行例</a>
+## <a name="output_example">実行例</a>
 - 実行例1
 ```
 oct:tnal% ./a.out
@@ -120,5 +121,5 @@ match_num = 1, correct_rate = 0.250000
 - 提出物は「レポート」、「作成したソースファイル」の2点である。
 - レポートは電子ファイルで提出するものとする。
 - 提出先:
-  - 「<a href="https://drive.google.com/a/ie.u-ryukyu.ac.jp/folderview?id=0B8oAeomiuJo-OFUxYjNyT083OGM&usp=sharing">Google ドキュメント</a>」のreport1。
+  - Googleドキュメントのreport1。
 - 締切: 調整中。
