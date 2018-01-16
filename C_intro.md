@@ -40,9 +40,8 @@
 
 ## <a name="compiler_interpreter">コンパイラ言語とインタプリタ言語</a>
 - 参考サイト
-  - [コンパイラとインタプリタ](http://www2.cc.niigata-u.ac.jp/~takeuchi/tbasic/Intro2Basic/Interpreter.html)
-    - [Wikipedia:インタプリタ](https://ja.wikipedia.org/wiki/インタプリタ)
-    - [Wikipedia:コンパイラ](https://ja.wikipedia.org/wiki/コンパイラ)
+  - [Wikipedia:インタプリタ](https://ja.wikipedia.org/wiki/インタプリタ)
+  - [Wikipedia:コンパイラ](https://ja.wikipedia.org/wiki/コンパイラ)
 - コンパイラ
   - プログラミング言語で記述されたプログラムを、機械語（や中間言語）に変換するプログラムのこと。
   - コンパイラ言語は **「コード作成（編集）」->「コンパイラで機械語に翻訳」->「生成された実行可能ファイルを実行」** という手順を繰り返して開発作業を行う。
@@ -84,7 +83,6 @@
   - [苦しんで覚えるＣ言語(苦Ｃ)](http://9cguide.appspot.com)
   - C言語/ポインタ編（詳細は「アルゴリズムとデータ集合」にて）
     - [ポインタ虎の巻](http://www.nurs.or.jp/~sug/soft/tora/)
-    - [ポインタの裏話](http://www.chokkan.org/lectures/2012c/p2-3_pointer.pdf)
   - マニュアル: [【 man 】 オンライン・マニュアルを参照する](http://itpro.nikkeibp.co.jp/article/COLUMN/20060227/230821/)
 
 <hr>
@@ -402,7 +400,7 @@ int main(){
 <hr>
 
 ## <a name="ref">参考サイト</a>
-- [コンパイラとインタプリタ](http://www2.cc.niigata-u.ac.jp/~takeuchi/tbasic/Intro2Basic/Interpreter.html)
+- コンパイラとインタプリタ
   - [Wikipedia:インタプリタ](https://ja.wikipedia.org/wiki/インタプリタ)
   - [Wikipedia:コンパイラ](https://ja.wikipedia.org/wiki/コンパイラ)
 - C言語
@@ -413,4 +411,3 @@ int main(){
   - [苦しんで覚えるＣ言語(苦Ｃ)](http://9cguide.appspot.com): 教科書代わり2
 - C言語/ポインタ編
   - [ポインタ虎の巻](http://www.nurs.or.jp/~sug/soft/tora/)
-  - [ポインタの裏話](http://www.chokkan.org/lectures/2012c/p2-3_pointer.pdf)
