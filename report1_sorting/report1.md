@@ -54,8 +54,8 @@ results = 100 90 70 60 0
 ```
 oct:tnal% gcc -Wall sorting.c
 oct:tnal% ./a.out
-scores = 100 60 70 100 90 80 0
-results = 100 100 90 80 70 60 0
+scores = 100 60 70 100 90 80
+results = 100 100 90 80 70 60
 ```
 
 <hr>
