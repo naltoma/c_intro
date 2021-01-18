@@ -2,35 +2,15 @@
 - 参考
   - [Using Clang in Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-clang-mac)
 - ＜目次＞
-  - <a href="#pre">事前作業</a>
   - <a href="#new-project">プロジェクト作成方法</a>
-
-<hr>
-
-## <a name="pre">事前作業</a>
-### command line developer tools のインストール。
-- 確認方法
-  - ターミナルから ``gcc --version`` と実行。以下のように Apple clang のバージョンが出力されるならOK。
-
-```shell
-(base) oct:tnal% gcc --version
-Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/4.2.1
-Apple clang version 11.0.3 (clang-1103.0.32.62)
-Target: x86_64-apple-darwin19.6.0
-Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-```
-
-- バージョンが出力されない場合
-  - ``xcode-select --install`` と実行し、command line developer toolsをインストールしよう。
 
 <hr>
 
 ## <a name="new-project">プロジェクト作成方法</a>
 - step 1: プロジェクトディレクトリを作成。
-  - 例えば ``~/prog2/`` がすでに存在していて、そこに ``week12`` というプロジェクトを作るなら、``mkdir ~/prog2/week12`` で作成。以下はこの想定でのコマンド例。
+  - 例えば ``~/prog2/`` がすでに存在していて、そこに ``week14`` というプロジェクトを作るなら、``mkdir ~/prog2/week14`` で作成。以下はこの想定でのコマンド例。
 - step 2: 作成したディレクトリに移動。
-  - ``cd ~/prog2/week12``
+  - ``cd ~/prog2/week14``
 - step 3: 空のソースファイルを作成。（後からも可能）
   - ``touch sample1.c``
 - step 4: VSCodeでプロジェクトを開く。
@@ -44,12 +24,14 @@ InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault
     - 使いたいコンパイラは、ターミナルから``which gcc``で確認。``/usr/bin/gcc``が出力されるはず。
     - tasks.jsonの "command" に、上記と同じgccが指定されていることを確認できればOK。
 - step 7: ビルド。
-  - vscodeでプログラムに戻り、``Terminal > Run Build Task...`` を実行。
-    - ソースコードに問題がなければコンパイルが通り、実行可能ファイル（バイナリファイル）とデバッグ用ファイル群が生成される。
-    - 実行可能ファイルは``sample1``、デバッグ用ファイル群は``sample1.dSYM``のように、ソースコードのファイル名に沿った名前で生成される。
-  - もしくは、ターミナルで手動コンパイルも可能。
-    - ``gcc -o sample1 sample1.c``
+  - case 1: VSCodeでビルド。（コンパイルのみ）
+    - vscodeでプログラムに戻り、``Terminal > Run Build Task...`` を実行。
+      - ソースコードに問題がなければコンパイルが通り、実行可能ファイル（バイナリファイル）とデバッグ用ファイル群が生成される。
+      - 実行可能ファイルは``sample1``、デバッグ用ファイル群は``sample1.dSYM``のように、ソースコードのファイル名に沿った名前で生成される。
+  - case 2: ターミナルで手動コンパイル。
+    - ``gcc -o hoge sample1.c``
+    - ``-o`` は、コンパイル後に生成する実行ファイル名を指定するためのオプション。上記ではhogeと指定している。指定しなかった場合には ``a.out`` というファイル名になる。
 - step 8: 実行。
-  - 理由はよくわからないが現時点でvscodeから直接実行することはできない。代わりに、ターミナルから ``./sample1`` のようにパス付きでバイナリファイルを指定して実行する。
+  - 理由はよくわからないが現時点でvscodeから直接実行することはできない。代わりに、ターミナルから ``./hoge`` のようにパス付きでバイナリファイルを指定して実行する。
 - step option: デバッグ実行。
   - Javaと同様の流れで可能。
