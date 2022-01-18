@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    char data[5] = "hoge";
+    char data[] = "hoge";
     char result[5];
     int num;
     int i, index;

@@ -191,7 +191,7 @@ for i in data:
 #include <stdio.h>
 
 int main(){
-    int data[3] = {1, 2, 3};
+    int data[3] = {1, 2, 3}; //int data[] = {1, 2, 3}; でも良い
     int i;
     for(i=0; i<3; i++){
         if (data[i] % 2 == 0){
@@ -296,7 +296,7 @@ char eval(int score){
 }
 
 int main(){
-    int scores[3] = {100, 70, 50};
+    int scores[] = {100, 70, 50};
     int num = sizeof(scores)/sizeof(int); /*  配列scoresの要素数をカウント。 */
     int i;
     char answer;
@@ -363,7 +363,7 @@ struct student_score{
 };
 
 int main(){
-    struct student_score scores[3] = {{"e175701", 100, 'A'}, {"e175702", 70, 'C'}, {"e175703", 50, 'F'}};
+    struct student_score scores[] = {{"e175701", 100, 'A'}, {"e175702", 70, 'C'}, {"e175703", 50, 'F'}};
     int num = sizeof(scores)/sizeof(struct student_score);
     char account[8];
     int score;
