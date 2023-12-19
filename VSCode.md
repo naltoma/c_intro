@@ -14,7 +14,7 @@
   - 検索窓に ``c`` と入力し、「C/C++ Themes」をインストールする。
   - 検索窓に ``c`` と入力し、「CMake」をインストールする。
   - 検索窓に ``c`` と入力し、「CMakeTools」をインストールする。
-  - 検索窓に ``code`` と入力し、「C/C++ Runner」をインストールする。
+  - 検索窓に ``code`` と入力し、「Code Runner」をインストールする。
 
 参考: [【M1以降の Mac, Windows対応】Visual Studio CodeでC/C++を実行する環境を構築する方法](https://www.edp-ken.com/post-8/#m2)
 
