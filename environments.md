@@ -1,5 +1,5 @@
 # 環境構築
-- 2020年1月5日版。
+- 2024年1月6日版。
 
 ## macOS
 ### 動作確認方法
@@ -7,9 +7,8 @@
 
 ```shell
 (base) oct:tnal% gcc --version
-Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/4.2.1
-Apple clang version 11.0.3 (clang-1103.0.32.62)
-Target: x86_64-apple-darwin19.6.0
+Apple clang version 16.0.0 (clang-1600.0.26.6)
+Target: arm64-apple-darwin23.6.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```

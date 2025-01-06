@@ -46,6 +46,7 @@ int main(){
       - ``./hoge``
   - 自動でやる場合：
     - 実行。
-      - ウィンドウ下部の ▷ をクリック。実行結果が出力されない（ターミナル上にhelloと出力されない）なら、Extention内のCode Runnerの設定を確認しよう。
-- step option: デバッグ実行。
-  - Javaと同様の流れで可能。
+      - ウィンドウ下部の ▷ をクリック。
+      - ウィンドウ下部の表示を Terminal から Debug Console に切り替える。
+    - デバッグ実行。
+      - Python, Javaと同様。
