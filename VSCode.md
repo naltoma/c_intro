@@ -14,7 +14,12 @@
   - 検索窓に ``c`` と入力し、「C/C++ Themes」をインストールする。
   - 検索窓に ``c`` と入力し、「CMake」をインストールする。
   - 検索窓に ``c`` と入力し、「CMakeTools」をインストールする。
-  - 検索窓に ``code`` と入力し、「Code Runner」をインストールする。
+  - 検索窓に ``code`` と入力し、「Code Runner」をインストールする。Code Runnerをインストール後、ターミナルに実行結果を出力させるために以下の設定をする。
+    - 拡張機能のCode Runnerを選択して表示する。
+    - 「Disable, Uninstall, Auto Update」の右にある歯車アイコンをクリック。Settingsを選択する。
+    - `Code-runner: Run in Terminal` の下にある「Whether to run code in Integrated Terminal」にチェックを入れる。
+    - 念のため VSCode をリロードする。
+      - Command + Shift + pを押してコマンドパレットを表示し、reloadと入力し、「Developer: Reload Window」を選択。
 
 参考: [【M1以降の Mac, Windows対応】Visual Studio CodeでC/C++を実行する環境を構築する方法](https://www.edp-ken.com/post-8/#m2)
 
@@ -46,7 +51,6 @@ int main(){
       - ``./hoge``
   - 自動でやる場合：
     - 実行。
-      - ウィンドウ下部の ▷ をクリック。
-      - ウィンドウ下部の表示を Terminal から Debug Console に切り替える。
+      - ウィンドウ下部の ▷ の右にある `↓` をクリック。通常実行したい場合は「Run Code」を選択。一度選択した後は ▷ を押すだけで良い。
     - デバッグ実行。
-      - Python, Javaと同様。
+      - ウィンドウ下部の ▷ の右にある `↓` をクリック。「Debug C/C++」を選択。その後は Python, Javaと同様。
